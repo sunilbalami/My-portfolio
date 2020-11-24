@@ -4,3 +4,45 @@ body{
     font-family:'Work Sans', sans-serif;
     font-weight: 300;
 }
+.container{
+    width: 95%;
+    margin:0 auto;
+}
+header{
+    background: white;
+}
+header::after{
+    content:'';
+    display: table;
+    clear:both
+}
+.logo{
+    float: left;
+    padding-top:3px;
+    
+}
+nav{
+    float: right;
+}
+nav ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+nav li{
+    display: inline-block;
+    margin:0 35px;
+    padding-top: 25px;
+    position: relative;
+}
+nav a {
+    color:#444;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+
+}
+nav a:hover{
+    color:#000;
+    font-weight:600;
+}
